@@ -61,6 +61,8 @@ void dfs(ll now , ll noword[] , ll cnt , ll depth) {
 }
 
 int main() {
+    freopen("input.in" , "r" , stdin);
+    freopen("brutal.out" , "w" , stdout);
     n = read();
     for (ll i = 1 ; i <= n ; i ++) {
         for (ll j = 1 ; j <= n ; j ++) {
